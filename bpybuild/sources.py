@@ -161,7 +161,7 @@ class BlenderGit(SourceVersionControl):
     Provides the source code created by Blender Foundation developers.
     """
 
-    BASE_URL = "git://git.blender.org/blender.git"
+    BASE_URL = "https://projects.blender.org/blender/blender.git"
 
     # Here I store the Blender `git` sources in a folder in the home directory
     # so that I don't need to waste time constantly pulling from the repository;
